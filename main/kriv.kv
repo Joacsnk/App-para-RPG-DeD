@@ -1,0 +1,14 @@
+MDBoxLayout:
+    orientation: "vertical"
+    spacing: dp(10)
+    padding: dp(10)
+
+    MDLabel:
+        text: "Bem-vindo ao Kriv!"
+        halign: "center"
+        theme_text_color: "Primary"
+
+    MDRaisedButton:
+        text: "Clique aqui"
+        pos_hint: {"center_x": 0.5}
+        on_release: app.on_button_press()

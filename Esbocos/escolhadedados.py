@@ -17,8 +17,16 @@ class Dados():
             print('\n' * 130)
             menu = Menu()
             menu.iniciar()
+        elif self.opcao > 0  and self.opcao < 4:
+            print('\n' * 130)
+            print('ERRO - - - Quantidade de lados insuficiente\n')
+            self.inicio()
         elif self.opcao > 0:
             self.exibirRolagemDados()
+        elif self.opcao < 0:
+            print('\n' * 130)
+            print('ERRO - - -Número inválido\n')
+            self.inicio()
             
     def exibirRolagemDados(self):
         print('\n' * 130)

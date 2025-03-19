@@ -1,0 +1,5 @@
+cor_principal = Fore.YELLOW
+        cor_secundaria = Fore.WHITE
+        cor_acerto = Fore.GREEN 
+        cor_erro = Fore.RED 
+        resetar_cores = Style.RESET_ALL
